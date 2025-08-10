@@ -53,8 +53,8 @@ API Keys are in gen_sql.py and all notebooks.
 The RAG system needs to know about your database schema and any specific business terminology. You must populate the vector store before running the main application.
 
 1. **Prepare Your Data:** Add your database schema and business term files into the data/schemas and data/business_terms directories, respectively.
-2. **Follow the Guide:** A detailed guide on the required file formats (DDL.csv, table JSON files, and business term .md files) is located in the data/ directory. Please follow data/README.md to structure your files correctly.
-3. **Run the Ingestion Script:** (from the application directory)
+2. **Follow the Guide:** A detailed guide on the required file formats (DDL.csv, table JSON files, and business term .md files) is located in the ```application/data/``` directory. Please follow ```application/data/README.md``` to structure your files correctly.
+4. **Run the Ingestion Script:** (from the application directory)
 ```python ingest_data.py```
 ## Step 3: Run the streamlit application
 Once the knowledge base is populated, you can launch the client application.
