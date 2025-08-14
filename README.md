@@ -22,7 +22,7 @@ By systematically identifying why the system fails, we can create a data-driven 
 # Performance Results
 Baseline tests with a standard RAG pipeline yielded a ~4% execution accuracy on a challenging subset of the Spider 2.0 benchmark. 
 This result was expected, but the simple accuracy score provided no guidance on how to improve.
-After implementing the new multi-step architecture and optimizing, the system's performance improved significantly.
+After implementing the new multi-step architecture and optimizing, the system's performance improved significantly (to 12.5% accuracy).
 
 **Error Reduction (New Pipeline vs. Baseline with Gemini Flash):**
 
